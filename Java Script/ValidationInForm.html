@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\Amit Patel\Desktop\Form_Validation\form-style.css">
+    
+
+    <script>
+        function PrintError(){
+            document.getElementById(elemId),innerHTML=hintMsg;
+        }
+        function ValidateForm(){
+            var FullName=document.Form.FullName.value;
+            var Email=document.Form.Email.value;
+            var Phone=document.Form.Phone.value;
+            var country=document.Form.country.value;
+            var gender=document.Form.gender.value; 
+            var hobbies[];
+            var checkbox = document.getElementsByName("hobbies[]");
+            for(i=0;)
+           
+    }
+    </script>
+    </head>
+    <body>
+    <h1>  Validation In Form</h1>
+    <form  name="Form" style="border: solid 2px black;">
+    
+    <div class="row" > 
+        <label> Full name</label>
+        <input type="text"  name="name" placeholder="Enter Full Name" >
+        <div class="error" name="nameErr"></div>
+    </div> 
+    <div class="row">
+         <label> Email-Address</label>
+    <input type="text"  name="email" placeholder="Enter Address">
+    <div class="error" name="emailErr"></div>
+    </div>
+    <div class="row">
+         <label> Phone Number:</label>
+    <input type="text"name="phone" placeholder="Phone Number">
+    <div class="error" name="phoneErr"></div>
+    </div>
+    <div class="row">
+     <label > country:</label>
+    <br><select name="country" >
+        <option >India</option>
+        <option >America</option>
+        <option>pakistan</option>
+        <option>Japan</option>
+        <div class="error" id="countryErr"></div>
+    </div>
+    </select>
+    
+    <div class="row">
+        <label> Gender </label>
+        <label><input type="radio" name="gender" id="male">Male</label>
+        <label><input type="radio" name="gender" id="female">Female</label>
+        <div class="error" id="genderErr"></div>
+    </div>
+        <div> <label> Hobbies</label>
+            <div class="form-inline">
+          <label>  <input type= "checkbox"  name="hobbies[]" value="dancing">Dancing</label>
+          <label>  <input type= "checkbox"  name="hobbies[]" value="reading">Reading</label>
+          <label>  <input type= "checkbox"  name="hobbies[]" value="playing">Playing</label>
+        </div>
+    </div>
+    <div class="row"><input type="submit" value="SUBMIT" >
+    </div>
+
+ </form>
+</body>
+</html>
