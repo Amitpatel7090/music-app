@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #MainUl{
+            cursor: pointer;
+        }
+        #MainUl li ul li{display: none;
+        cursor: pointer;}
+        #MainUl li:hover  ul li {display: block;}
+        #MainUl li ul li ul{ display: none;} 
+         #MainUl li ul li:hover ul{display: block;}
+        #MainUl li ul li:hover ul ul{display: none;}
+        #MainUl li ul li:hover ul li:hover ul{display: block;}  
+           
+    </style>
+</head>
+<body>
+    <ul id="MainUl">
+         <li> Google
+            <ul>
+                <li>gmail  
+                    <ul>
+                       
+                        <li>sign in 
+                            <ul>
+                                <li>sign in as admin</li>
+                                <li>sign in as user</li>
+                            </ul>
+                         </li>
+                         <li>sign up</li>
+                    </ul>
+                </li>
+                <li>youtube</li>
+                <li>G drive</li>
+                <li>G map</li>
+            </ul>
+         </li>
+    <li>Face book</li>
+    <li>Microsoft
+    <ul>
+        <li>Bing</li>
+        <li>Linkedin</li>
+    </ul>
+    </li>
+    <li>MSN</li>
+    <li>Amazon
+        <ul>
+            <li>AWS</li>
+            <li>ECommerce</li> 
+            <li>ECC</li>
+        </ul>
+    </li>
+    </ul>
+    
+   
+
+    
+</body>
+</html>
