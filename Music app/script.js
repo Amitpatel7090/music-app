@@ -13,13 +13,13 @@ let songs = [
     {songName: "Unstopable", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
     {songName: "Dust Still Down", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
     {songName: "Running Up That Hill", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Come On My Way", filePath: "songs/1.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Taaki Taaki", filePath: "songs/2.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Love Me Like You Do", filePath: "songs/3.mp3", coverPath: "covers/6.jpg"},
-    {songName: "People", filePath: "songs/1.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Rise Up", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Lily a girl", filePath: "songs/3.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Don't Let Me Down", filePath: "songs/1.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Come On My Way", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Taaki Taaki", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Love Me Like You Do", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "People", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Rise Up", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Lily a girl", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Don't Let Me Down", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 

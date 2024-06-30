@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video Behind Text</title>
+	<style>
+		body {
+			background: #000;
+			color: #fff;
+			font-size: 24px;
+			font-family: Arial, sans-serif;
+			text-align: center;
+			margin: 0;
+			padding: 0;
+		}
+		video {
+			position: absolute;
+			top: 0;
+			left: 0;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			z-index: -1;
+			background: transparent;
+		}
+	</style>
+</head>
+<body>
+	<video autoplay muted loop>
+		<source src="C:\Users\Amit Patel\Desktop\Html\webLink\MVI_7973.MP4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	<h1>Example Text</h1>
+	<p>This is some example text that will appear in front of the video.</p>
+</body>
+</html>
