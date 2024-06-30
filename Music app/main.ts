@@ -5,7 +5,7 @@ const router = new Router();
 
 // Serve index.html at the root
 router.get('/', async (context) => {
-  context.response.body = await Deno.readTextFile('./index.html');
+  context.response.body = await Deno.readTextFile('index.html');
 });
 
 // Serve static files (CSS, JS, images)
@@ -26,4 +26,4 @@ app.use(router.routes());
 app.use(router.allowedMethods());
 
 console.log(`Server running on http://localhost:8000`);
-await app.listen({ port: 8000 });
+// await app.listen({ port: 8000 });
