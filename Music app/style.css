@@ -55,7 +55,7 @@ nav ul li{
    width: 70%;
    border-radius: 12px;
    padding: 34px;
-   background-image: url('star.jpg');
+   background-image: url('./assets/star.jpg');
 }
 
 .bottom{

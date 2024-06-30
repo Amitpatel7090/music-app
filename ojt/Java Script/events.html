@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function democlick(){
+            alert("Try Again")
+        }
+        function demodoubleeClick(){
+            alert("Its Elonmusk")
+        }
+        function ondemoFocus(){
+               document.getElementById("txt").style.backgroundColor="Yellow";
+        }
+        function ondemoBlur(){
+               document.getElementById("txtBlur").style.backgroundColor="Red";
+        }
+        function ondemoB(){
+               document.getElementById("txtBlur").style.backgroundColor="Red";
+        }
+    
+    </script>
+
+    <button>Click</button>
+    <button> doubleClick</button>
+    <input type="text" id="txt" onfocus="ondemoFocus()" placeholder="Enter any thing">
+    <input type="text" id="txtBlur" onblur="ondemoBlur()" placeholder="Enter any thing">
+    <input type="text" id="txtKeyPress"  placeholder="Enter any thing">
+    <input type="text"  id="Key press"placeholder="Enter any thing"><br>
+    <button onclick="democlick()">Hello</button>
+    <button ondblclick="demodoubleeClick()">here</button>
+    <button></button>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            height: 350px;width: 350px;
+            background: #f3a703;
+        }
+        body{
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        function AlertInternal(){
+            alert("Alet Internal")
+             }
+             function ConfirmIternal(){
+            if(confirm( "Are U sure again?")){
+                alert("YESSS")
+            }
+            else{
+                alert("NOOO")
+            }
+             
+            }
+            function PromptIntenl(){
+                var firstName=prompt("Enter your name:");
+            }
+            function BodyChange(){
+                document.body.style.backgroundColor="red";
+            }
+            function BodyChangeInternal(){
+                document.GetElementById.body.style.backgroundColor=prompt=("Enter the color Name");
+            }
+
+
+    </script> 
+
+<div id="box">Amit Patel</div><hr>
+<button onclick='alert("Alert Inline")' id="AlertInline">Alert Inline</button>
+<button  onclick="AlertInternal()" id="AlertInternal" >Alert Internal</button>
+<button id="AlertExternal">Alert External</button>
+<hr>
+<button onclick=' confirm("Are u sure?")' id="">confirm Inline</button>
+<button  onclick="ConfirmIternal()" >Confirm Internal</button>
+<button id="">Cofirm External</button>
+<hr>
+<button onclick="prompt('Enter Name')">Prompt Inline</button>
+<button  onclick="PromptIntenl()" id="">Prompt Internal</button>
+<button id="">Prompt External</button><hr>
+<input type="button" value="bodyColorCchange" onclick="BodyChange()" />
+<input type="button" value="bodyColorCchange" onclick="BodyChangeInternal()" />
+
+
+    
+    
+
+</body>
+</html>
